@@ -37,5 +37,5 @@ ou
 go run main.go
 ```
 - **Acessar**
-http://localhost:9000/
+http://localhost:9000/ | 
 http://localhost:9000/api/chat
