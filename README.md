@@ -15,7 +15,7 @@ Este projeto é uma API simples em GoLang, com apenas um endpoint `POST /api/cha
 ## 🚀 Pré-requisitos
 
 - GoLang **versão 1.23** instalado
-- `make` instalado na sua máquina
+- `make` instalado na sua máquina (ou navegar ao diretório cmd/api e rodar go run main.go)
 - Chave de API da Groq (https://groq.com/)
 
 ## ⚙️ Configuração
@@ -32,6 +32,10 @@ Utilizando o `Makefile`, você pode rodar:
 - **Desenvolvimento**
 
 ```bash
-make api-dev
-
-e chamar localmente http://localhost:9000/api/chat
+make api-dev 
+ou 
+go run main.go
+```
+- **Acessar**
+http://localhost:9000/
+http://localhost:9000/api/chat
