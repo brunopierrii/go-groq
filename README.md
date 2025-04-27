@@ -16,7 +16,7 @@ Este projeto é uma API simples em GoLang, com apenas um endpoint `POST /api/cha
 
 - GoLang **versão 1.23** instalado
 - `make` instalado na sua máquina
-- Chave de API da Groq
+- Chave de API da Groq (https://groq.com/)
 
 ## ⚙️ Configuração
 
